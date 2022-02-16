@@ -41,8 +41,8 @@ public class Main {
         gerente.setNome("Camila Gerente");
         gerente.setDocumento("456.789.123-87");
         gerente.setEndereco(endereco);
-        gerente.setHorasTrabalhadas(20);
-        gerente.setValorHora(100d);
+        gerente.setHorasTrabalhadas(100);
+        gerente.setValorHora(50d);
 
         gerente.calculaRemuneracao();
         gerente.calculaBonificacao(3d);
